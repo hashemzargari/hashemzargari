@@ -11,6 +11,8 @@ I'm a Senior Backend Engineer and Go Specialist based in Padova, Italy. I love d
 ### Current Focus
 I'm currently building and maintaining **[mempipe](https://github.com/GoMemPipe/mempipe)**! It's an open-source project I'm really passionate about. If you're into Go and performance optimization, definitely check out the repository and let's collaborate!
 
+Also see **[memrag](https://github.com/GoMemPipe/memrag)** and **[vipedb](https://github.com/hashemzargari/vipedb)**
+
 ### Work Experience Highlights
 - **Digikala:** Led the backend migration of the legacy B2B order management system to a modern Microservices architecture.
 - **Ariel Smart Trading:** Designed and deployed 27 microservices (Go & Python) for a crypto/forex algo-trading platform. I also built services for real-time price crawling, order management, and risk analysis. 
