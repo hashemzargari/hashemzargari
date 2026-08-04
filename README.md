@@ -1,23 +1,20 @@
 # Hi there, I'm Hashem Zargari!
 
-I'm a Senior Backend Engineer and Go Specialist based in Padova, Italy. I love designing and scaling high-performance backend systems. I have a proven track record of handling massive scale, like billions of daily requests.
+I'm a Backend Engineer and Go Specialist based in Padova, Italy. I love designing and scaling high-performance backend systems. I have a proven track record of handling massive scale, like billions of daily requests.
 
 ### 💻 What I Do
 - **Backend Architecture:** I specialize in Microservices, Event-Driven Architecture (EDA), DDD, and REST API/gRPC.
-- **Tech Stack:** My primary language is Golang, but I also work with Python and PHP.
+- **Tech Stack:** My primary language is Golang, but I also work with Python and PHP. (Vim and JetBrains IDEs are my go-to daily drivers!)
 - **Data & Messaging:** I use PostgreSQL, MySQL, Redis, Apache Kafka, NATS, and ElasticSearch.
-- **Scale:** At Digikala, I architected a high-scale real-time notification service. It was optimized to handle 1,000,000 live concurrent connections using only 4 CPU cores and 2GB RAM.
 
-### Current Focus
-I'm currently building and maintaining **[mempipe](https://github.com/GoMemPipe/mempipe)**! It's an open-source project I'm really passionate about. If you're into Go and performance optimization, definitely check out the repository and let's collaborate!
+### 🚀 Current Focus
+I'm currently building and maintaining open-source projects that push the boundaries of Go, distributed systems, and performance optimization. If you're into high-performance backend engineering, definitely check out my repositories and let's collaborate!
 
-Also see **[memrag](https://github.com/GoMemPipe/memrag)** and **[vipedb](https://github.com/hashemzargari/vipedb)**
-
-### Work Experience Highlights
-- **Digikala:** Led the backend migration of the legacy B2B order management system to a modern Microservices architecture.
-- **Ariel Smart Trading:** Designed and deployed 27 microservices (Go & Python) for a crypto/forex algo-trading platform. I also built services for real-time price crawling, order management, and risk analysis. 
-- **Farabi Brokerage:** Engineered a stock investment platform serving 8 million daily users.
-- **Sensenet Ca:** Developed a real-time disaster detection system processing 23,000 events per second from forest sensors.
+- **[Kival](https://github.com/hashemzargari/kival):** A high-performance, in-memory key-value store written in Go. It features a sharded zero-GC segmented arena, background compaction, adaptive chunk sizing, and optional HashiCorp Raft consensus for multi-node clustering. 
+  > *⚠️ Note: Do not use it anywhere! It's just for FUN and PRACTICE :)*
+- **[mempipe](https://github.com/GoMemPipe/mempipe):** A zero-dependency, zero-allocation, arena-backed ONNX inference engine written purely in Go. It completely eliminates the need for Python, CGo, or heavy PyTorch stacks.
+- **[memrag](https://github.com/GoMemPipe/memrag):** A high-performance library for zero-allocation embedding inference in RAG applications. Powered by `mempipe`, it features dynamic sequence lengths, concurrent engine pools, and built-in tokenizers (WordPiece, BPE, SentencePiece) to eliminate GC pressure.
+- **[vipedb](https://github.com/hashemzargari/vipedb):** An all-in-one semantic search tool and vector database packed into a single Go executable. Designed as a drop-in semantic replacement for `grep`, it features real-time log streaming (`vipe stream`), local workspaces, intelligent caching, and agent-friendly JSON outputs—all powered by the `mempipe` and `memrag` stack.
 
 ### 📫 Let's Connect!
 I am currently available for B2B contracting. Feel free to reach out to talk about Go, distributed systems, or my work!
